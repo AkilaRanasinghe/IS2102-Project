@@ -1,0 +1,19 @@
+.imge {
+	border-radius: 5px 5px 0 0;
+	width : 100%;
+}
+
+.ite {
+	float: left;
+	width: 24%;
+	padding: 25px 3px 25px 8px;
+	border-radius: 5px;
+}
+
+.card {
+	background-color: #005b96;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	border-radius: 5px;
+}
