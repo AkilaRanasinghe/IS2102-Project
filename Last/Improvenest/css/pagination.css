@@ -1,0 +1,29 @@
+.items
+{
+	display: inline-block;   
+}   
+
+.items a
+{
+	display: inline-block;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+	border: 1px solid #ddd;
+}   
+
+.items a.active
+{   
+	background-color: #6497b1;
+	color: white;
+}
+
+.items a:visited 
+{
+	color: white;
+}	
+
+.items a:hover:not(.active)
+{   
+	background-color: #b3cde0;
+}
