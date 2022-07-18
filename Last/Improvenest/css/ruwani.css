@@ -1,0 +1,437 @@
+.addbutton {
+	  /* border-radius: 5%;  */
+	   padding: 20px 0px 20px 1px; 
+     width: 90px; 
+     height: 125px; 
+    float: right;
+     margin-right: 5%;
+    margin-top: 0%;  
+} 
+
+.newbutton {
+	float: left;
+	padding: 5px 0px 0px 10px;
+    width: 55px;
+    height: 50px;
+}
+
+label {
+    color: #ffff;
+}
+
+h1 {
+    color: #ffff;
+}
+
+.nav {
+    font-weight: bold;
+    background-color: #b3cde0;
+    margin-top: 40%;
+}
+
+/*-------------inside navigation---------------*/
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #011f4b;
+    color: white;
+  }
+  
+  .topnav a.active {
+    /* background-color: #b3cde0; */
+    border-style: solid;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 9px;
+    color: rgb(138, 140, 141);
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+  .line {
+    /* overflow: hidden; */
+    background-color: white;  
+    margin-top: 4.69%;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+
+    padding-bottom: 10px;
+  }
+
+  /*-------------little Boxes---------------*/
+
+  .newbox input[type=text], select {
+    width: 100%;
+    padding: 5px 30px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #3a3a3d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #3a3a3d;
+    font-size: large;
+    color: blanchedalmond;
+  } 
+  
+  .newbox input[type=button] {
+    width: 96%;
+    background-color: #6f706f; 
+    font-size: large;
+    color: black;
+    padding: 8px 20px;
+    margin: 8px 20px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .newbox ::placeholder{
+  color: white;
+  }
+  
+  input[type=button]:hover {
+    background-color: #636363;
+  }
+  
+  .newbox {
+    border-radius: 5px;
+    background-color: #3a3a3d;
+    /* padding: 5px;  */
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .newbox label {
+    color: black;
+    font-size: large;
+    padding: 10px 40px;
+  }
+
+  /*-------------big Boxes---------------*/
+  .otherbox input[type=text], select {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid rgba(40, 105, 167, 0.2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(40, 105, 167, 0.2);
+    color: white;
+  }
+
+  .otherbox input[type=number] {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid rgba(40, 105, 167, 0.2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(40, 105, 167, 0.2);
+    color: white;
+  }
+
+  .otherbox input[type=date] {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid rgba(40, 105, 167, 0.2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(40, 105, 167, 0.2);
+    color: white;
+  }
+  .otherbox input[type=time] {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid rgba(40, 105, 167, 0.2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(40, 105, 167, 0.2);
+    color: white;
+  }
+  .otherbox {
+    border-radius: 5px;
+    background-color: rgba(40, 105, 167, 0.2);
+    padding: 20px;
+    opacity: .9;
+  }
+  
+  .otherbox ::placeholder{
+    color: white;
+    font-size: large;
+    }
+  .otherbox label {
+    color: black;
+    font-size: large;
+    padding: 10px 40px;
+    }
+
+  .otherbox input[type=button] {
+      width: 400px;
+
+      font-size: large;
+      color: white;
+      padding: 8px 20px;
+      margin: 8px 20px ;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .otherbox img{
+      margin-left: 3%;
+      padding: 0px 0px 0px 0px;
+      width: 150px;
+      height: 150px
+    }
+
+
+  /*-------------my forms---------------*/
+  .mybox input[type=text], select {
+    width: 95%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f9faff;
+    color: black;
+  }
+  
+  .mybox select {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+  }
+
+  .mybox input[type=textarea]{
+    width: 95%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f9faff;
+    color: black;
+  }
+
+  .mybox input[type=number]{
+    width: 95%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f9faff;
+    color: black;
+  }
+
+  
+  .mybox input[type=date]{
+    width: 30%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+  }
+
+  .mybox input[type=time]{
+    width: 30%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+  }
+
+  .mybox {
+    border-radius: 5px;
+    background-color: rgba(40, 105, 167, 0.2);
+    padding: 20px;
+    opacity: .9;
+  }
+  
+  .mybox ::placeholder{
+    color: blacl;
+    font-size: large;
+    }
+    
+  .mybox label {
+    color: white;
+    font-size: large;
+    padding: 10px 40px;
+    }
+
+  .mybox input[type=button] {
+      width: 50%;
+
+      font-size: large;
+      color: white;
+      padding: 8px 20px;
+      margin: 8px 20px ;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    /*----------------profiles-------------------*/
+
+    /* .profiles input[type=text], select {
+      width: 70%;
+      padding: 12px 10px;
+      margin: 8px 5%;
+      display: inline-block;
+      border: 1px solid #717276;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: #717276;
+      color: white;
+    } */
+    
+    .profiles {
+      border-radius: 5px;
+      background-color: #717276;
+      padding: 20px;
+      opacity: .9;
+      width: 20%;
+    }
+    
+    /* .profiles ::placeholder{
+      color: white;
+      font-size: large;
+      } */
+
+ 
+     .profiles label {
+      color: white;
+      font-size: large;
+      padding: 0px 0px 4px 0px;
+      } 
+  
+     .profiles input[type=button] {
+        width: 100px;
+        font-size: large;
+        color: white;
+        padding: 8px 20px;
+        margin: 4px 0px ;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      } 
+  
+      .profiles img{
+        margin-left: 65%;
+        padding: 0px 0px 0px 0px;
+        width: 70px;
+        height: 60px
+      }
+
+      
+    /*------------Own Profile edits and vies---------------*/
+  .myprofile input[type=text], select {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid rgba(40, 105, 167, 0.2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(40, 105, 167, 0.2);
+    color: white;
+  }
+
+  .myprofile input[type=number] {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid rgba(40, 105, 167, 0.2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(40, 105, 167, 0.2);
+    color: white;
+  }
+  .myprofile input[type=password] {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 8px 5%;
+    display: inline-block;
+    border: 1px solid rgba(40, 105, 167, 0.2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(40, 105, 167, 0.2);
+    color: white;
+  }
+  
+  .myprofile {
+    border-radius: 5px;
+    background-color: rgba(40, 105, 167, 0.2);
+    padding: 20px;
+    opacity: .9;
+  }
+  
+  .myprofile ::placeholder{
+    color: white;
+    font-size: large;
+    }
+
+  .myprofile label {
+    color: black;
+    font-size: large;
+    padding: 10px 40px;
+    }
+
+  .myprofile input[type=button] {
+      width: 400px;
+
+      font-size: large;
+      color: white;
+      padding: 8px 20px;
+      margin: 8px 20px ;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .myprofile img{
+      margin-left: 3%;
+      padding: 0px 0px 0px 0px;
+      width: 150px;
+      height: 150px
+    }

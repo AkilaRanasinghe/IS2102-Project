@@ -1,0 +1,133 @@
+.fedadd {
+    background-color: #4c87af; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+  }
+
+  .newsaddfull {
+    border: 2px solid black;
+    text-decoration : none;
+    background-color: #04AA6D;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #1192b3;
+    color: white;
+  }
+  .newsaddfull:hover {
+    background-color: white;
+    
+    color: #04AA6D;
+  }
+
+  .fedapprove {
+    background-color: #6497b1; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+  }
+
+  .fedreject {
+    background-color: #a32626; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+  }
+  .occas {
+    border: 2px solid black;
+    text-decoration : none;
+    background-color: rgb(12, 87, 184);
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #1192b3;
+    color: white;
+  }
+  .occas:hover {
+    background-color: white;
+    
+    color: #0439aa;
+  }
+
+  .past {
+    border: 2px solid black;
+    text-decoration : none;
+    background-color: rgb(233, 68, 56);
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #1192b3;
+    color: white;
+  }
+  .past:hover {
+    background-color: white;
+    
+    color: #af300a;
+  }
+
+
+  .approved {
+    float: left;
+    width: 30%;
+    padding: 10px;
+  }
+
+  .approvedsearch {
+    float: right;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .shopimage {
+    border-radius: 5px 0 0 5px;
+    width : 100%;
+    height : 150px;
+  }
+
+  .newssubhead {
+    float: left;
+    width: 40%;
+    padding: 10px;
+  }
+
+  .shopslot {
+    float: left;
+    width: 25%;
+    height: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 91, 150, 0.3);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    max-width: auto;
+    margin: 0px 20px 0px 20px;
+    margin-bottom: 30px;
+  }
+
